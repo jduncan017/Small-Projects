@@ -1,0 +1,25 @@
+.container {
+  width: 300px;
+  padding: 20px;
+}
+
+.scroll__page-title {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.scroll__section-text {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+}
+
+.scroll__button:hover {
+  cursor: pointer;
+}

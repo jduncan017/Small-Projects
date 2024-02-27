@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  border: 5px darkgray solid;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.header__title {
+  font-size: 42px;
+  margin: 10px 0 5px;
+}
+
+.header__description {
+  width: 50vw;
+  font-size: 20px;
+  line-height: 1.8rem;
+}

@@ -1,0 +1,59 @@
+.container {
+  width: 300px;
+  margin: 20px;
+  text-align: start;
+}
+
+.multiselect {
+  width: 100%;
+  height: 30px;
+  color: black;
+  box-sizing: border-box;
+  padding: 0 4px;
+}
+
+.dropdown {
+  border: black solid 1px;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.item {
+  border-bottom: 1px darkgray solid;
+  height: 20px;
+  margin: 0;
+  padding: 5px 5px 5px 10px;
+  list-style: none;
+  display: flex;
+  gap: 3px;
+}
+
+.item:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.item_selected {
+  background-color: lightblue;
+}
+
+.item_selected.item_highlighted {
+  background-color: rgb(136, 183, 200);
+}
+
+.item_highlighted {
+  background-color: lightgray;
+}
+
+.item_null {
+  color: gray;
+}

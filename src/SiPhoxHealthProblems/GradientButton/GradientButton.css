@@ -1,0 +1,45 @@
+.container {
+  width: 300px;
+  margin: 50px;
+}
+
+.button {
+  width: 100%;
+  height: 50px;
+  background: none;
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:hover::before {
+  transform: translateX(-50%);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg, #fff000 0%, #000fff 50%, #fff000 100%);
+  transition: transform 0.2s;
+}
+
+.button__text {
+  position: relative;
+  z-index: 1;
+  color: black;
+  transition: color 0.2s;
+}
+
+.button:hover .button__text {
+  color: white;
+}
